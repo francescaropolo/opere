@@ -16,9 +16,9 @@ const NotFound = React.lazy(() => import('./pages/NotFound'));
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <React.Suspense fallback={"Loading..."}>
-        <Router>
-          <Header />  
+      <Router>
+        <Header />  
+        <React.Suspense fallback={"Loading..."}>
           <Routes>
             <Route path="/opere/about" element={<About />} />
             <Route exact path="/opere/catalogo" element={<Catalogo />} />
@@ -26,8 +26,8 @@ const App = () => {
             <Route path="/opere" element={<Home />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </Router>
-      </React.Suspense>
+        </React.Suspense>
+      </Router>
     </ThemeProvider>
   );
 }
