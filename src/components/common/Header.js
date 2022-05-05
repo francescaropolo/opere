@@ -41,11 +41,11 @@ const Header = memo(() => {
     return (
         <>
             <Wrapper>
-                <HomeLink to="/opere">Spazio De Dominicis</HomeLink>
+                <HomeLink to="/">Spazio De Dominicis</HomeLink>
                 <Nav>
-                    <LinkItem to="/opere">Home</LinkItem>
-                    <LinkItem to="/opere/catalogo">Catalogo</LinkItem>
-                    <LinkItem to="/opere/about">Chi siamo</LinkItem>
+                    <LinkItem to="/">Home</LinkItem>
+                    <LinkItem to="/catalogo">Catalogo</LinkItem>
+                    <LinkItem to="/about">Chi siamo</LinkItem>
                 </Nav>
             </Wrapper>
             <Placeholder />
