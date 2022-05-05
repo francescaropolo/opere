@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkspazio_de_dominicis=self.webpackChunkspazio_de_dominicis||[]).push([[964],{964:function(i,e,n){n.r(e);n(791);var s=n(184);e.default=function(i){return(0,s.jsx)("div",{children:"about"})}}}]);
+//# sourceMappingURL=964.433c2e96.chunk.js.map
