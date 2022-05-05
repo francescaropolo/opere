@@ -20,10 +20,10 @@ const App = () => {
         <Router>
           <Header />  
           <Routes>
-            <Route path="/about" element={<About />} />
-            <Route exact path="/catalogo" element={<Catalogo />} />
-            <Route path="/catalogo/:operaId" element={<Opera />} />
-            <Route path="/" element={<Home />} />
+            <Route path="/opere/about" element={<About />} />
+            <Route exact path="/opere/catalogo" element={<Catalogo />} />
+            <Route path="/opere/catalogo/:operaId" element={<Opera />} />
+            <Route path="/opere" element={<Home />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Router>
