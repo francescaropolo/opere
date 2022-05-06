@@ -1,7 +1,7 @@
 const path = require("path")
 const fs = require("fs")
 
-const dirPath = path.join(__dirname, "../opere")
+const dirPath = path.join(__dirname, "../catalogo")
 // const dirPathPages = path.join(__dirname, "../src/pages/content")
 let operelist = []
 // let pagelist = []
@@ -92,7 +92,7 @@ const getOpere = () => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/opere.json", data)
+                    fs.writeFileSync("src/catalogo.json", data)
                 }
             })
         })
